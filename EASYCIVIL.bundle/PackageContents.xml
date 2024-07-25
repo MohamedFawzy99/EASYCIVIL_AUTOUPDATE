@@ -20,7 +20,7 @@
 <ComponentEntry
 			AppName=" EASYCIVIL"
 			AppDescription="EASYCIVILX"
-			ModuleName="./CONTENTS/DLL/EASYCIVIL.dll"
+			ModuleName="./CONTENTS/48/EASYCIVIL.dll"
 			LoadOnAutoCADStartup  ="True"
 			LoadOnRequest="True">
       <Commands GroupName="Eng.Mohamed Fawzy">
