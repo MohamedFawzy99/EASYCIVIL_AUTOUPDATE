@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+	SchemaVersion="1.0"
+	ProductType="Application"
+	Name="EASYCIVIL"
+	AppVersion="1.0.0"
+	Description="Tools for design and shopdrawing"
+	Author="Mohamed Fawzy"
+	Icon="./CONTENTS/ico_32.bmp"
+	HelpFile="./CONTENTS/Main.htm"
+	ProductCode="03DF0571-0774-5AC8-AC24-A44D50516FB1">
+  <CompanyDetails
+		Name = "Mohamed Fawzy"
+		Email = "Eng.mohfawzy99@gmail.com"/>
+
+  <Components>
+    <RuntimeRequirements
+			OS="Win32|Win64"
+			SeriesMin="R19.0"/>
+
+	
+	  ///////////////////PIPES/////////////////////
+    <!--/////PIPES/////
+    <ComponentEntry
+			AppName=" ADDTOPROFILE"
+			AppDescription="ADDTOPROFILEX"
+			ModuleName="./CONTENTS/DLL/ADDTOPROFILE.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="ATP" Global="ATP" />
+      </Commands>
+    </ComponentEntry>
+	     <ComponentEntry
+			AppName=" CHANGE SURFACE REFRENCE"
+			AppDescription="CHANGESURFACEREFRENCEX"
+			ModuleName="./CONTENTS/DLL/CHANGE SURFACE REFRENCE.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="CSF" Global="CSF" />
+      </Commands>
+    </ComponentEntry>
+   <ComponentEntry
+			AppName=" CHANGEALIGNMENTREFRENCE"
+			AppDescription="CHANGEALIGNMENTREFRENCEX"
+			ModuleName="./CONTENTS/DLL/CHANGEALIGNMENTREFRENCE.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="CRF" Global="CRF" />
+      </Commands>
+    </ComponentEntry>
+<ComponentEntry
+			AppName=" CHANGEELEVATION"
+			AppDescription="CHANGEELEVATIONX"
+			ModuleName="./CONTENTS/DLL/CHANGEELEVATION.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="CEV" Global="CEV" />
+      </Commands>
+    </ComponentEntry>
+
+<ComponentEntry
+			AppName=" GETPIPEELEVATION"
+			AppDescription="GETPIPEELEVATIONX"
+			ModuleName="./CONTENTS/DLL/GETPIPEELEVATION.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="PEV" Global="PEV" />
+      </Commands>
+    </ComponentEntry>
+
+<ComponentEntry
+			AppName=" SELECTPIPEBACKFROMPROFILE"
+			AppDescription="SELECTPIPEBACKFROMPROFILEX"
+			ModuleName="./CONTENTS/DLL/SELECTPIPEBACKFROMPROFILE.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="SBK" Global="SBK" />
+      </Commands>
+    </ComponentEntry>
+<ComponentEntry
+			AppName=" SETSAMEPOINTTWOPIPE"
+			AppDescription="SETSAMEPOINTTWOPIPEX"
+			ModuleName="./CONTENTS/DLL/SETSAMEPOINTTWOPIPE.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="SPT" Global="SPT" />
+      </Commands>
+    </ComponentEntry>
+
+<ComponentEntry
+			AppName=" UPDOWNPIPE"
+			AppDescription="UPDOWNPIPEX"
+			ModuleName="./CONTENTS/DLL/UPDOWNPIPE.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="UDP" Global="UDP" />
+      </Commands>
+    </ComponentEntry>
+<ComponentEntry
+			AppName=" BOUNDARYSELECT"
+			AppDescription="BOUNDARYSELECTX"
+			ModuleName="./CONTENTS/DLL/BOUNDARYSELECT.dll"
+			LoadOnCommandInvocaton  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed fawzy">
+        <Command Local="SBN" Global="SBN" />
+      </Commands>
+    </ComponentEntry>-->
+
+<ComponentEntry
+			AppName=" EASYCIVIL"
+			AppDescription="EASYCIVILX"
+			ModuleName="./CONTENTS/DLL/EASYCIVIL.dll"
+			LoadOnAutoCADStartup  ="True"
+			LoadOnRequest="True">
+      <Commands GroupName="Eng.Mohamed Fawzy">
+      </Commands>
+    </ComponentEntry>
+
+
+
+
+	  //////////////////////partial cui///////////////////////////////
+	  <ComponentEntry
+			AppName="EASYCIVIL"
+			AppDescription="Tools for design and shopdrawing"
+			ModuleName="./CONTENTS/EASYCIVIL.cuix">
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>
