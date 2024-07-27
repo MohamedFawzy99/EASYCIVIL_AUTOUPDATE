@@ -24,7 +24,7 @@
 	<Components>
 		<RuntimeRequirements
 			OS="Win32|Win64"
-			SeriesMin="R22.0" />
+			SeriesMin="R25.0" />
 		<ComponentEntry
 			AppName=" EASYCIVILCore"
 			AppDescription="EASYCIVILCoreX"
