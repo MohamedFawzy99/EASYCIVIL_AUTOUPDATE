@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ApplicationPackage
-	SchemaVersion="1.0"
-	ProductType="Application"
-	Name="EASYCIVIL"
-	AppVersion="1.0.0"
-	Description="Tools For Modeling and Coordination"
-	Author="Mohamed Fawzy"
+	SchemaVersion="1.0" ProductType="Application" Name="EASYCIVIL" AppVersion="1.0.0.0" Description="Tools For Modeling and Coordination" Author="Mohamed Fawzy"
 	Icon="./CONTENTS/ico_32.bmp"
 	HelpFile="./CONTENTS/Main.htm"
 	ProductCode="03DFX571-0774-6FC8-AC24-A44D50516FB1">
-  <CompanyDetails
-		Name = "Mohamed Fawzy"
-		Email = "Eng.mohfawzy99@gmail.com"/>
-  <Components>
-    <RuntimeRequirements
-			OS="Win32|Win64"
-			SeriesMin="R19.0"/>
+	<CompanyDetails
+		  Name = "Mohamed Fawzy"
+		  Email = "Eng.MohFawzy99@gmail.com"/>
+	<Components>
+		<RuntimeRequirements
+				OS="Win32|Win64"
+				SeriesMin="R24.0"
+				SeriesMax="R24.3" />
+		<ComponentEntry
+				AppName=" EASYCIVIL"
+				AppDescription="EASYCIVILX"
+				ModuleName="./CONTENTS/48/EASYCIVIL.dll"
+				LoadOnAutoCADStartup  ="True"
+				LoadOnRequest="True">
+		</ComponentEntry>
+	</Components>
 
-<ComponentEntry
-			AppName=" EASYCIVIL"
-			AppDescription="EASYCIVILX"
-			ModuleName="./CONTENTS/48/EASYCIVIL.dll"
+	<Components>
+		<RuntimeRequirements
+			OS="Win32|Win64"
+			SeriesMin="R22.0" />
+		<ComponentEntry
+			AppName=" EASYCIVILCore"
+			AppDescription="EASYCIVILCoreX"
+			ModuleName="./CONTENTS/NET8/EASYCIVILCore.dll"
 			LoadOnAutoCADStartup  ="True"
 			LoadOnRequest="True">
-      <Commands GroupName="Eng.Mohamed Fawzy">
-      </Commands>
-    </ComponentEntry>
-  </Components>
+		</ComponentEntry>
+	</Components>
+
+
 </ApplicationPackage>
