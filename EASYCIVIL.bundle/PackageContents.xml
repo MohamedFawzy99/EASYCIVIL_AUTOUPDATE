@@ -10,7 +10,6 @@
 	<Components>
 		<RuntimeRequirements
 				OS="Win32|Win64"
-				SeriesMin="R24.0"
 				SeriesMax="R24.3" />
 		<ComponentEntry
 				AppName=" EASYCIVIL"
